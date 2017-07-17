@@ -6,4 +6,4 @@ http.createServer((request, response) => {
   response.end('Hello World!\n');
 }).listen(PORT);
   
-console.log('Server running at <a href="http://localhost:${PORT}/" target="_blank" rel="noreferrer" style="cursor:help;display:inline !important;">http://localhost:${PORT}/</a>');
+console.log(`Server running at <a href="http://localhost:${PORT}/" target="_blank" rel="noreferrer" style="cursor:help;display:inline !important;">http://localhost:${PORT}/</a>`);
